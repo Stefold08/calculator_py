@@ -55,10 +55,23 @@ while True :
         somma = a ** b
         print(f"il risultato e` {somma} ")
     elif scelta == 6 :
-        a = input("inserisci il numero da mettere sotto radice:")
-        a = int(a)
-        somma = math.sqrt(a)
-        print(f"il risultato e` {somma} ")
+        print("scegli quale tipo di radice: ")
+        print("1) quadrata ")
+        print("2) cubica ")
+        scelta1 = int(input("inserire una opcione:"))
+
+        if scelta1 == 1 :
+            a = input("inserire il numero da mettere sotto radice:")
+            a = int(a)
+            somma = math.sqrt(a)
+            print(f"il risultato e` {somma} ")
+        elif scelta1 == 2 :
+            a = input("inserire il numero da mettere sotto radice:")
+            a = int(a)
+            somma = math.cbrt(a)
+            print(f"il risultato e` {somma} ")
+        else :
+            break
     elif scelta == 0 :
         print("Arrivederci!!")
         break
