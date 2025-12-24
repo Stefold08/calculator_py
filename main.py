@@ -8,6 +8,8 @@ def menu() :
     print("2) sottrazione")
     print("3) moltiplicazione ")
     print("4) divisione")
+    print("5) potenza")
+    print("6) radice")
     print("0) esci")
     print("-------------------")
 
