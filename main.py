@@ -43,6 +43,13 @@ while True :
         b = int(b)
         somma = a / b
         print(f"il risultato e` {somma} ")
+    elif scelta == 5 :
+        a = input("inserisci il primo numero:")
+        a = int(a)
+        b = input("inserisci il secondo numero:")
+        b = int(b)
+        somma = a ** b
+        print(f"il risultato e` {somma} ")
     elif scelta == 0 :
         print("Arrivederci!!")
         break
