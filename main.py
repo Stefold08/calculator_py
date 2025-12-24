@@ -50,6 +50,11 @@ while True :
         b = int(b)
         somma = a ** b
         print(f"il risultato e` {somma} ")
+    elif scelta == 6 :
+        a = input("inserisci il numero da mettere sotto radice:")
+        a = int(a)
+        somma = math.sqrt(a)
+        print(f"il risultato e` {somma} ")
     elif scelta == 0 :
         print("Arrivederci!!")
         break
