@@ -1,3 +1,5 @@
+import math
+
 #creare il menu di base testuale
 def menu() :
     print("-------------------")
