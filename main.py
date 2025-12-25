@@ -77,6 +77,11 @@ while True :
             print(f"il risultato e` {somma} ")
         else :
             break
+    elif scelta == 7:
+        a = input("inserisci il numero da fattorializzare: ")
+        a = int(a)
+        somma = math.factorial(a)
+        print(f"il risultato e` {somma} ")
     elif scelta == 0 :
         print("Arrivederci!!")
         break
