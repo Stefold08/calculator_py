@@ -70,6 +70,11 @@ while True :
             a = int(a)
             somma = math.cbrt(a)
             print(f"il risultato e` {somma} ")
+        elif scelta1 == 3:
+            a = input("inserire il numero da mettere sotto radice:")
+            a = int(a)
+            somma = math.pow(a, 0.25)
+            print(f"il risultato e` {somma} ")
         else :
             break
     elif scelta == 0 :
